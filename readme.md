@@ -1,7 +1,14 @@
 ﻿# ASP.NET Core Paging for MVC/API
+[![Flurl](https://img.shields.io/nuget/v/Flurl.svg?maxAge=3600)](https://www.nuget.org/packages/AspNetCore.Mvc.Paging/)
+ 
 Enables easy paging of IQueryable collections for ASP.NET Core MVC or APis.
 ## Getting Started ##
 Supports attribute based capture of returns, or by Controller response.
+
+Get it on NuGet:
+
+`PM> Install-Package AspNetCore.Mvc.Paging`
+
 ### Attribute based
 Return response by attribute using the 'Microsoft.AspNetCore.Mvc.Paging' namespace. The **EnablePagingAttribute** will intercept the call and provide the context class and query inputs.
 ```

@@ -10,7 +10,15 @@
     <FileVersion>2.2.1.0</FileVersion>
     <Description>Provides ability to return paging results from MVC APIs either by attribute or by result.</Description>
     <PackageProjectUrl>https://github.com/cloudfy/aspnetcore-paging</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <None Remove=".gitignore" />
